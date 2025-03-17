@@ -34,5 +34,6 @@ if st.button("Generate Quote"):
     motivation = get_motivational_quote()
     st.success(motivation)
 
-
+st.set_page_config(page_title="Money making Machine", page_icon="💰")
     
+st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")

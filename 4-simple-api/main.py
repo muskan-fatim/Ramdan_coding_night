@@ -28,3 +28,7 @@ def get_motivational():
     return{
   "quote":random.choice(motivational)
     }
+
+st.set_page_config(page_title="Motivational Quotes API", page_icon="favicon.ico")
+
+st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")

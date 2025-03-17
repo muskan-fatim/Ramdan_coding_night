@@ -100,3 +100,6 @@ if st.button("Submit Answer"):
     st.session_state.current_question = random.choice(questions)
     time.sleep(3)
     st.rerun()
+
+st.set_page_config(title="Quiz App", page_icon="🔍")
+st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")

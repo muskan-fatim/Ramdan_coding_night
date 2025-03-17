@@ -25,3 +25,7 @@ if st.button("Calculate"):
        symbol = "x"
 
     st.success(f"{num1} {symbol} {num2} = {result}")
+
+st.set_page_config(title="simple calculator",page_icon="🔢")
+
+st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")

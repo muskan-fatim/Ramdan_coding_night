@@ -44,3 +44,7 @@ if st.button("Convert Time"):
     dt = datetime.combine(datetime.today(), current_time, tzinfo=ZoneInfo(from_tz))
     converted_time = dt.astimezone(ZoneInfo(to_timezone)).strftime("%y-%m-%d %H-%M-%S")
     st.success(f"Converted time in {to_timezone}: {converted_time}")
+
+st.set_page_config(page_title="Time Zone App", page_icon="🕒")
+
+st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")

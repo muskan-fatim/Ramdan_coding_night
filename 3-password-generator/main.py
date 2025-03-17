@@ -29,5 +29,8 @@ if st.button("check password"):
     else:
         st.error("your password is not strong  generate a new one")
 
-st.write("Created By @muskan-fatim")
+st.set_page_config(page_title="password generator", page_icon="🔑")
+
+st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")
+
     

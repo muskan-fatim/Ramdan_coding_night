@@ -36,4 +36,6 @@ if not data.empty:
 
     st.bar_chart(mood_counts)
 
-    st.write("Created By Muskan Fatima")
+st.set_page_config(page_title="Mood Tracker", page_icon="💭")
+
+st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")
