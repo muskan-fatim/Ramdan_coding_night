@@ -28,4 +28,7 @@ def get_motivational():
     return{
   "quote":random.choice(motivational)
     }
+@app.get("/favicon.ico")
+async def favicon():
+    return {}
 
