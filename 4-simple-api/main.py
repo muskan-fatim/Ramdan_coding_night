@@ -3,7 +3,7 @@ import random
 
 app = FastAPI();
 
-motivational:list[str]= [
+motivational = [
   "Believe in yourself and all that you are. - Christian D. Larson",
   "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
   "Dream big and dare to fail. - Norman Vaughan",
@@ -29,4 +29,3 @@ def get_motivational():
   "quote":random.choice(motivational)
     }
 
-st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")
