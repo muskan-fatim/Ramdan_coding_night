@@ -13,6 +13,7 @@ def is_strong_password(password):
         bool(re.search(r'[!@#$%^&*(),.?":{}|<>]', password))  # At least one special character
     )
 
+st.set_page_config(page_title="password generator", page_icon="🔑")
 
 st.title("Password Generator")
 st.subheader("generate a strong password")
@@ -29,7 +30,6 @@ if st.button("check password"):
     else:
         st.error("your password is not strong  generate a new one")
 
-st.set_page_config(page_title="password generator", page_icon="🔑")
 
 st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")
 

@@ -17,6 +17,8 @@ TIME_ZONES = [
     "Asia/Kolkata",
 ]
 
+st.set_page_config(page_title="Time Zone App", page_icon="🕒")
+
 # Create app title
 st.title("Time Zone App")
 
@@ -45,6 +47,5 @@ if st.button("Convert Time"):
     converted_time = dt.astimezone(ZoneInfo(to_timezone)).strftime("%y-%m-%d %H-%M-%S")
     st.success(f"Converted time in {to_timezone}: {converted_time}")
 
-st.set_page_config(page_title="Time Zone App", page_icon="🕒")
 
 st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")

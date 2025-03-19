@@ -78,6 +78,8 @@ questions = [
     "correctAnswer": "Markhor"
   }
 ];
+st.set_page_config(title="Quiz App", page_icon="🔍")
+
 st.title("Quiz app")
 
 if "current_question" not in st.session_state:
@@ -101,5 +103,4 @@ if st.button("Submit Answer"):
     time.sleep(3)
     st.rerun()
 
-st.set_page_config(title="Quiz App", page_icon="🔍")
 st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")

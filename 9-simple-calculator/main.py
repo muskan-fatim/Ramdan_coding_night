@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(title="simple calculator",page_icon="🔢")
+
 st.title("Simple Calculator")
 num1 = st.text_input("Enter you first number")
 num2 = st.text_input("Enter you second  number")
@@ -26,6 +28,5 @@ if st.button("Calculate"):
 
     st.success(f"{num1} {symbol} {num2} = {result}")
 
-st.set_page_config(title="simple calculator",page_icon="🔢")
 
 st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")

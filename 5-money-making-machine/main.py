@@ -6,7 +6,9 @@ def generate_money():
     amount = random.randint(1,1000)
     return amount
 
-st.title("Money making Machine")
+st.set_page_config(page_title="Money making Machine", page_icon="💰")
+
+st.title("Money making Machine💰")
 st.subheader("Generate money by clicking the button below")
 if st.button("Generate Money"):
     st.write("Generating money...")
@@ -34,6 +36,5 @@ if st.button("Generate Quote"):
     motivation = get_motivational_quote()
     st.success(motivation)
 
-st.set_page_config(page_title="Money making Machine", page_icon="💰")
     
 st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")

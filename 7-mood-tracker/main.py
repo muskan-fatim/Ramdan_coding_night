@@ -16,6 +16,8 @@ def save_mood(date,mood):
     with open(moodfile, "a") as file:
         writer =  csv.writer(file)
         writer.writerow([date, mood])
+        
+st.set_page_config(page_title="Mood Tracker", page_icon="💭")
 
 st.title("Mood tracking app")
 date:str= datetime.date.today()
@@ -36,6 +38,5 @@ if not data.empty:
 
     st.bar_chart(mood_counts)
 
-st.set_page_config(page_title="Mood Tracker", page_icon="💭")
 
 st.markdown("📢 **Created by [Muskan Fatima](https://github.com/muskan-fatim)**")
