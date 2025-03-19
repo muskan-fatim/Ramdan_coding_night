@@ -13,6 +13,19 @@ A simulation tool for financial insights.
 - Provides financial analysis.
 - User-friendly UI with Python and UV.
 
-## 🛠️ Installation
-```bash
-pip install streamlit
+
+## 📥 Installation & Running the Apps
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-muskan-fatim/5-money-making-machine.git
+   ```
+2. Install dependencies:
+   ```sh
+   pip install streamlit 
+   ```
+3. Run the apps:
+   ```sh
+   streamlit run main.py
+   ```
+
+---

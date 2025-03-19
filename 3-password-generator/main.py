@@ -15,7 +15,7 @@ def is_strong_password(password):
 
 st.set_page_config(page_title="password generator", page_icon="🔑")
 
-st.title("Password Generator")
+st.title("Password Generator 🔑")
 st.subheader("generate a strong password")
 if st.button("generate password"):
     st.success(show_password)
