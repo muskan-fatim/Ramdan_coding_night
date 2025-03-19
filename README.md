@@ -34,15 +34,20 @@ Ramdan_coding_night/
 | **8-quiz-app**              | A Python-based interactive quiz game. |
 | **9-simple-calculator**     | A basic calculator for mathematical operations. |
 | **10-random-joke-generator** | A random joke generator that show random jokes in urdu |
+| **11-persnol-library-mangment** | personal library manger that mange your digital library |
+| **12-simple-chatbot** |
+A simple chatbot using chainlit that show your given message|
+| **13-qa-chatbot** |
+A complete chatbot making using chainlit and Gemini latest version|
 
 
 
 
 ## ⚙️ Tech Stack  
 - **Language:** Python  
-- **Framework:** UV  
-- **Libraries Used:** (re,streamlit, FastAPI, Pandas)  
-
+- **Framework:** UV
+- **Libraries Used:** (re,streamlit, chainlit ,FastAPI, Pandas)  
+- **chatbot:** Gemini lastest version 
 ---
 
 ## 🚀 How to Run  
