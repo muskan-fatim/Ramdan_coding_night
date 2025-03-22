@@ -28,3 +28,7 @@ def get_motivational():
     return{
   "quote":random.choice(motivational)
     }
+
+
+
+
