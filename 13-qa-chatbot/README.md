@@ -1,6 +1,4 @@
-Here’s a **README.md** file for your **Chainlit + Gemini AI Chatbot** project:  
 
----
 
 ## 🤖 Chainlit Gemini AI Chatbot
 
