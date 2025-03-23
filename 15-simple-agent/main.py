@@ -2,7 +2,6 @@ import os
 from dotenv import load_dotenv
 from agents import Agent , Runner , AsyncOpenAI ,OpenAIChatCompletionsModel
 import streamlit as st
-import asyncio
 
 
 load_dotenv()
@@ -21,8 +20,6 @@ agent = Agent(
     model=model,
 
 )
-
-
 user_question = input("Enter your question or message")
 
 if user_question:
