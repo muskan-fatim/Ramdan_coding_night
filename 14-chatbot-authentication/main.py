@@ -32,12 +32,12 @@ async def handle_chat_start():
 
 @cl.on_message
 async def handle_message(message:cl.Message):
-    history = cl.user_session.get(history)
+    history = cl.user_session.get("history")
     history.append({"role":"user","content":message.content})
     formated_history = []
-    for mesg in history:
+    for msg in history:
         role = "user" if msg["role"] == "user" else "model"
-        formated_history.append({"role":role, "parts":[{"text":mesg["content"]}]})
+        formated_history.append({"role":role, "parts":[{"text":msg["content"]}]})
     response = model.generate_content(formated_history)
     response_text = response.text if hasattr(response,"text") else ""      
     history.append({"role":"assistant","content":response_text})
