@@ -1,0 +1,33 @@
+name: Deploy FastAPI App
+
+on:
+  push:
+    branches:
+      - main  # Change this if your main repo branch has a different name
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+
+      - name: Change to FastAPI Project Directory
+        run: cd 04-simple-api  # Navigate to the correct project folder
+
+      - name: Install Dependencies
+        run: |
+          cd 04-simple-api  # Ensure all commands run inside the correct folder
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run FastAPI Server
+        run: |
+          cd 04-simple-api  # Again, make sure it's running in the right place
+          uvicorn main:app --host 0.0.0.0 --port 8000
