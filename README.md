@@ -24,6 +24,10 @@ Ramdan_coding_night/
 │── 13-qa-chatbot/
 │── 14-chatbot-authentication/
 │── 15-simple-agent/
+│── 16-Advance-agent/
+│── 17-Own-profile-API/
+
+
 │── README.md
 ```
 
@@ -46,6 +50,10 @@ Ramdan_coding_night/
 | **13-qa-chatbot** | A complete chatbot making using chainlit and Gemini latest version |
 | **14-chatbot-authentication** | A  chatbot with authentication using chainlit and Gemini latest version |
 | **15-simple-agent** | A simple agent maked  using openAI with  Gemini latest version |
+| **16-advance-agent** | A Advance agent maked  using openAI , chainlit , Github auth with  Gemini latest version |
+| **17-Own-Profile-API** | A simple API that return short details about me and also provide link of my profile|
+
+
 
 
 
