@@ -9,6 +9,8 @@ All projects are inside the repository, named based on their functionality.
 
 ```
 Ramdan_coding_night/
+│── 1-todo-list/
+│── 2-unit-convertor/
 │── 3-password-generator/
 │── 4-simple-api/
 │── 5-money-making-machine/
@@ -20,6 +22,8 @@ Ramdan_coding_night/
 │── 11-persnol-library-mangment/
 │── 12-simple-chatbot/
 │── 13-qa-chatbot/
+│── 14-chatbot-authentication/
+│── 15-simple-agent/
 │── README.md
 ```
 
@@ -40,15 +44,20 @@ Ramdan_coding_night/
 | **11-persnol-library-mangment** | personal library manger that mange your digital library |
 | **12-simple-chatbot** | A simple chatbot using chainlit that show your given message |
 | **13-qa-chatbot** | A complete chatbot making using chainlit and Gemini latest version |
+| **14-chatbot-authentication** | A  chatbot with authentication using chainlit and Gemini latest version |
+| **15-simple-agent** | A simple agent maked  using openAI with  Gemini latest version |
 
 
 
+---
 
 ## ⚙️ Tech Stack  
 - **Language:** Python  
-- **Framework:** UV
-- **Libraries Used:** (re,streamlit, chainlit ,FastAPI, Pandas)  
-- **chatbot:** Gemini lastest version 
+- **Framework:** UV  
+- **Libraries Used:** `re`, `streamlit`, `chainlit`, `FastAPI`, `pandas`  
+- **Chatbot:** Gemini (Latest Version)  
+- **AI Model Provider:** OpenAI  
+
 ---
 
 ## 🚀 How to Run  
@@ -68,6 +77,7 @@ Ramdan_coding_night/
    ```sh
     active a enivroment and
     run streamlit run main.py
+    
    ```
 
 

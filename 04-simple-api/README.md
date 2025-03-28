@@ -25,7 +25,8 @@ This project is a **Motivational Quotes API** built using **FastAPI**. It provid
 1. Run the API (see installation steps below).
 2. Make a GET request to:
    ```sh
-   http://127.0.0.1:8000/motivational
+   https://motivational
+   api.vercel.app/motivational
    ```
 3. You will receive a random motivational quote in JSON format:
    ```json
