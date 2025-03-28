@@ -1,0 +1,39 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+*.venv
+*.env
+Pipfile
+Pipfile.lock
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+#
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore database or CSV data files (optional, keep if you don't want to push books.csv)
+*.sqlite3
+*.db
+*.csv
+
+# Streamlit & FastAPI temporary files
+.mypy_cache/
+pytest_cache/
+streamlit/
+.fastapi_cache/
+
+# VSCode & JetBrains IDEs
+.vscode/
+.idea/
