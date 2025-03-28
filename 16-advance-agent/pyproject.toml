@@ -1,0 +1,11 @@
+[project]
+name = "advance-agent"
+version = "0.1.0"
+description = "Advance agent using chianlit and apen ai agent"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit",
+    "openai-agents>=0.0.6",
+    "python-dotenv>=1.0.1",
+]
