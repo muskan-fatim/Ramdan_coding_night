@@ -1,5 +1,6 @@
 import streamlit as st
 import random
+import re
 
 passwords = ["/CS49)B4&Vt-","S59:[)m?Lm?Z","KcA6uW@PB(", "+?^c:)qs}Qxw","'T'dK(4=XUSd","jEiI&ZLupu0c","KEHq%2u~0GDE","Uy0hK$z-nX(}","K~D,y,y-~zI*","}lRt;}S|ZR(-"]
 
