@@ -78,7 +78,6 @@ questions = [
     "correctAnswer": "Markhor"
   }
 ];
-st.set_page_config(title="Quiz App", page_icon="🔍")
 
 st.title("Quiz app")
 
