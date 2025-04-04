@@ -20,7 +20,7 @@ if st.button("Generate Money"):
     #add the motivatinal quote using local fast api
 def get_motivational_quote():
       try:
-        response = requests.get("http://127.0.0.1:8000/motivational")
+        response = requests.get("https://motivational-api.vercel.app/motivational")
         if response.status_code == 200:
             motivatinal =  response.json()
             return motivatinal["quote"]
